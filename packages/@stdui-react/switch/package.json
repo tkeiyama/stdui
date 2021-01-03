@@ -1,0 +1,13 @@
+{
+  "name": "@stdui-react/switch",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "peerDependencies": {
+    "react": "^17.0.1"
+  },
+  "dependencies": {
+    "@stdui-styles/switch": "^0.0.0",
+    "@stdui-types/switch": "^0.0.0"
+  }
+}

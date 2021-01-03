@@ -1,0 +1,27 @@
+{
+  "name": "stdui-monorepo",
+  "private": true,
+  "version": "0.0.1",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*/**"
+  ],
+  "scripts": {
+    "dev": "start-storybook -p 7777 --ci --quiet -c .storybook",
+    "tcm": "tcm packages",
+    "lint": "rome check packages/**"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/react": "^6.1.11",
+    "@types/react": "^17.0.0",
+    "clsx": "^1.1.1",
+    "lerna": "^3.22.1",
+    "md5": "^2.3.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "rome": "^10.0.4-beta",
+    "typed-css-modules": "^0.6.4",
+    "typescript": "^4.1.3"
+  }
+}

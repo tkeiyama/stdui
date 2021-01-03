@@ -1,0 +1,7 @@
+{
+  "name": "@stdui-styles/switch",
+  "version": "0.0.0",
+  "license": "MIT",
+  "style": "styles.css",
+  "types": "styles.css.d.ts"
+}
